@@ -19,7 +19,9 @@ AnimalFarm() {
 	 * animal.
 	 */
 
-	/* 2. Make it so that the user can keep entering new animals. */
+	/* 2. Make it so that the user can keep entering new animals. */ 
+	playNoise(woofFile);
+	playQuack();
 }
 
 void playMoo() {

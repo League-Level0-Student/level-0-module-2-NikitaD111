@@ -7,9 +7,13 @@ public class StringMethods2 {
 		
 		// 1. Create a String variable and initialize it with
 		//    random upper and lower case characters.
-
+String two ="linoluem";
 		// 2. Print your String to the console in upper case.
-		
+		System.out.println(two.toUpperCase());
+		System.out.println(two.toLowerCase());
+		System.out.println(two.substring(0, 3));
+		System.out.println(two.charAt(6));
+		System.out.println(two.substring(two.length()-3, two.length()));
 		// 3. Print your String to the console in lower case.
 
 		// 4. Print the first 3 char's of your String
